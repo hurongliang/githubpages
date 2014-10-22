@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            胡荣良的博客
+tagline:          '这是个技术男的博客'
+description:      ''
+url:              http://hurongliang.com
+
+author:
+  name:           '胡荣良'
+  url:            https://twitter.com/hurongliang
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/hurongliang

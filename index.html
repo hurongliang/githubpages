@@ -1,12 +1,36 @@
 ---
 layout: default
-title: 胡荣良的博客
 ---
-<ul>
-<li> 我的简历 <a href="https://www.linkedin.com/in/hurongliang">https://www.linkedin.com/in/hurongliang</a> </li>
-<li> 早期技术博客 <a href="http://blog.pfan.cn/hurongliang">http://blog.pfan.cn/hurongliang</a></li>
-<li> 我的邮箱 hurongliang#gmail.com </li>
-<li> 我的github主页 <a href="https://github.com/hurongliang">https://github.com/hurongliang<a></li>
-</ul>
 
-<p> 之前相关文章记录在wordpress，现在博客用github托管，以后会将之前的文章迁移到这里 </p>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
