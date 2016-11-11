@@ -3,7 +3,7 @@ layout: post
 title: Java中的hashCode()和equals()
 ---
 
-关于hash code的相关知识点，之前确实没有好好做功课，这次认真研究了一番。同时还有equals方法。  
+这两个方法比较常见，深究下会发现很有意思。  
 
 #  什么是hashCode？
 
