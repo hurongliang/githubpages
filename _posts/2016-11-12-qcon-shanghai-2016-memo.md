@@ -17,7 +17,7 @@ Adrian Cockcroft对微服务的表述：loosely couped service oriented architec
 
 微服务领域常设计一个模型即scale cube（伸缩魔方）
 
-![]({{ site.url }}/images/20161125-1.png)
+![]({{ site.url }}/images/20161125/1.png)
 
 扩展一个应用有三个方向：
 - X轴：通过复制扩展。常用于业务功能的扩展。运行应用的多个实例，配合负载均衡策略。缺点是多个应用对同一份数据进行访问增大了内存资源消耗，并没有解决系统复杂度问题。
