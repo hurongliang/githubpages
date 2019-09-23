@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Java中的hashCode()和equals()
+categories: java hashCode equals
 ---
 
 这两个方法比较常见，深究下会发现很有意思。  

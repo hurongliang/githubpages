@@ -10,16 +10,16 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: 胡荣良
+  tagline: 架构 | 算法
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
+  analytics_id: ''
 
   # generate social links in footer
   social_links:
     twitter: hurongliang
     github:  hurongliang
-    linkedIn: ''
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll

@@ -1,12 +1,13 @@
 ---
 layout: post
 title: QCon上海2016参会笔记
+categories: qcon2016 微服务架构
 ---
-
-<img src="{{ site.url }}/img/20161125/0.jpeg" width="600" />
 
 # 前言
 一整天 一个会议厅 一个主题：微服务架构，我们该如何实践
+
+<img src="{{ site.url }}/img/20161125/0.jpeg" width="600" />
 
 # 《微服务：模式与实践》
 QCon联合主席Wesley Reisz的演讲主题是《微服务：模式与实践》，从宏观角度介绍微服务的重要概念和实践原则。
