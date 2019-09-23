@@ -4,7 +4,7 @@ title: 《当小区难以挽回地走向衰败》 阅读笔记
 categories: 小区物业 业主委员会 物业费
 ---
 
-[https://mp.weixin.qq.com/s/qg_4Nc-hTkmV-0nMgE0uIw](https://mp.weixin.qq.com/s/qg_4Nc-hTkmV-0nMgE0uIw)
+> [https://mp.weixin.qq.com/s/qg_4Nc-hTkmV-0nMgE0uIw](https://mp.weixin.qq.com/s/qg_4Nc-hTkmV-0nMgE0uIw)
 
 小区的电梯维修是刚性需求，电梯到达使用年限必须更换，否则会存在生命安全隐患。
 
