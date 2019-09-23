@@ -3,7 +3,7 @@ layout: post
 title: QCon上海2016参会笔记
 ---
 
-<img src="{{ site.url }}/img/20161125/0.png" width="600" />
+<img src="{{ site.url }}/img/20161125/0.jpeg" width="600" />
 
 # 前言
 一整天 一个会议厅 一个主题：微服务架构，我们该如何实践
