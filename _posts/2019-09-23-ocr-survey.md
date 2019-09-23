@@ -4,6 +4,8 @@ title: OCR调研
 categories: OCR CNN CRNN CTPN
 ---
 
+适合OCR小白！
+
 # OCR调研
 
 ## 概念

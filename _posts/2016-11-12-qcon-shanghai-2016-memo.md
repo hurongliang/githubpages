@@ -4,7 +4,6 @@ title: QCon上海2016参会笔记
 categories: qcon2016 微服务架构
 ---
 
-# 前言
 一整天 一个会议厅 一个主题：微服务架构，我们该如何实践
 
 <img src="{{ site.url }}/img/20161125/0.jpeg" width="600" />
