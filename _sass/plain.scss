@@ -154,6 +154,10 @@ main {
 		padding: 0 !important;
 		margin-top: 0;
 	}
+  li {
+    padding: 10px 0px;
+    border-bottom-color: #f3f3f3;
+  }
 }
 .post-container {
 	padding-left: 40px;
@@ -163,8 +167,6 @@ main {
 	font-weight: 300;
 	color: #222;
 	line-height: 1.9em;
-  padding: 10px 0px;
-  border-bottom-color: #f3f3f3;
 	a {
 		color: $linkColor;
 		text-decoration: none;
