@@ -43,21 +43,21 @@ main {
 
 	@media screen and (min-width: $bigScreenW) {
 		margin: 0 auto;
-		max-width: 1440px;	
+		max-width: 1440px;
 	}
 	@media screen and (max-width: 1280px) {
-		margin: 0 75px;	
+		margin: 0 75px;
 	}
 	@media screen and (max-width: 1024px){
-		margin: 0 35px;	
+		margin: 0 35px;
 	}
 
 	@media screen and (max-width: $mobileW) {
 		margin: 0 10px;
-		flex-direction: column;	
+		flex-direction: column;
 	}
 	@media screen and (max-width: $smallMobileW) {
-		margin: 0;	
+		margin: 0;
 	}
 
 	.content {
@@ -71,7 +71,7 @@ main {
 		height: 100vh;
 		padding-bottom: 15vh;
 		@media screen and (max-width: $mobileW) {
-			height: auto;	
+			height: auto;
 			padding: 10vh 0;
 		}
 		@media screen and (min-width: $mobileW + 1) {
@@ -89,7 +89,7 @@ main {
 			font-weight: normal;
 		}
 		.tagline {
-			font-size: 22px;
+			font-size: 18px;
 			margin-top: 17px;
 			color: #aaa;
 		}
@@ -117,7 +117,7 @@ main {
 	li {
 		font-size: 14px;
 		float: left;
-		background-color: #E3E3E3;
+		background-color: #f3f3f3;
 		padding: 5px 20px;
 		border-radius: 2px;
 		@media screen and (max-width: $mobileW){
@@ -151,7 +151,7 @@ main {
 		margin-right: 20px;
 	}
 	@media screen and (max-width: $mobileW){
-		padding: 0 !important;	
+		padding: 0 !important;
 		margin-top: 0;
 	}
 }
@@ -163,6 +163,8 @@ main {
 	font-weight: 300;
 	color: #222;
 	line-height: 1.9em;
+  padding: 10px 0px;
+  border-bottom-color: #f3f3f3;
 	a {
 		color: $linkColor;
 		text-decoration: none;

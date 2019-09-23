@@ -2,9 +2,8 @@
 layout: post
 title: OCR调研
 categories: OCR CNN CRNN CTPN
+excerpt: 适合OCR小白！
 ---
-
-适合OCR小白！
 
 # OCR调研
 

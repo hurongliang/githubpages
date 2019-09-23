@@ -2,9 +2,8 @@
 layout: post
 title: 《当小区难以挽回地走向衰败》 阅读笔记
 categories: 小区物业 业主委员会 物业费
+excerpt: 小区建设任重道远呢！
 ---
-
-小区建设任重道远呢！
 
 > [https://mp.weixin.qq.com/s/qg_4Nc-hTkmV-0nMgE0uIw](https://mp.weixin.qq.com/s/qg_4Nc-hTkmV-0nMgE0uIw)
 
