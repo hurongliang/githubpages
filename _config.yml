@@ -4,7 +4,7 @@ email: hurongliang@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   与你分享
 show_excerpts: true # set to true to show excerpts on the homepage
-permalink: /:title.html
+permalink: /:year/:month/:day/:title.html
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
