@@ -233,8 +233,8 @@ code[class="highlighter-rouge"] {
   color: #f92672;
 }
 div[class="highlighter-rouge"] > pre[class="highlight"] > code{
-  background:black;
-  color:#f8f8f2;
+  background:#efefef;
+  color:black;
 }
 div[class="highlighter-rouge"] > pre[class="highlight"] {
   background:black;
