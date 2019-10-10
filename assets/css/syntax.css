@@ -228,6 +228,10 @@ figure[class="highlight"] > pre {
   text-align:left;
   background:black;
 }
+code[class="highlighter-rouge"] {
+  background:black;
+  color:#f8f8f2;
+}
 div[class="highlighter-rouge"] > pre[class="highlight"] > code{
   background:black;
   color:#f8f8f2;
