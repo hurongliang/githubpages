@@ -2,7 +2,7 @@
 layout: post
 title: 项目实践：公益项目接入区块链
 categories: 蚂蚁开放联盟链 区块链 存证
-excerpt: 
+excerpt: java项目如何快速接入区块链技术，蚂蚁金服开放联盟链如何落地？
 ---
 
 # 项目背景
@@ -26,21 +26,21 @@ excerpt:
 
 # 接入指南
 
-官方提供可接入文档，地址：https://tech.antfin.com/docs/2/143566
+官方提供可接入文档，地址：<https://tech.antfin.com/docs/2/143566>
 
 这里给出重点步骤。
 
-一、开通开放联盟链。需要用到支付宝账号，建议使用项目专用账号。地址：https://openchain.cloud.alipay.com/
+一、开通开放联盟链。需要用到支付宝账号，建议使用项目专用账号。地址：<https://openchain.cloud.alipay.com/>
 
-二、购买燃料，调用区块链服务时需要消耗燃料。地址：https://openchain.cloud.alipay.com/balance
+二、购买燃料，调用区块链服务时需要消耗燃料。地址：<https://openchain.cloud.alipay.com/balance>
 
-三、创建链账户，建议选择秘钥托管，可以减少后续SDK接入的配置，不过我们项目使用的秘钥非托管。地址：https://openchain.cloud.alipay.com/account/lists
+三、创建链账户，建议选择秘钥托管，可以减少后续SDK接入的配置，不过我们项目使用的秘钥非托管。地址：<https://openchain.cloud.alipay.com/account/lists>
 
-四、给链账户分配燃料，通常每次存证服务需要消耗3w燃料，根据自身业务量来分配，本项目测试阶段分配了500W的燃料。地址：https://openchain.cloud.alipay.com/balance
+四、给链账户分配燃料，通常每次存证服务需要消耗3w燃料，根据自身业务量来分配，本项目测试阶段分配了500W的燃料。地址：<https://openchain.cloud.alipay.com/balance>
 
 五、SDK接入
 
-因为本项目服务端使用springboot架构，因此需要用到他们提供的Java SDK。官方接入文档地址：https://tech.antfin.com/docs/2/146924
+因为本项目服务端使用springboot架构，因此需要用到他们提供的Java SDK。官方接入文档地址：<https://tech.antfin.com/docs/2/146924>
 
 这里遇到的第一个坑是官方依赖没有发布到maven仓库中心，因此需要将sdk作为本地jar包引入项目。pom.xml配置参考
 
@@ -119,7 +119,7 @@ excerpt:
  
  六、调用存证服务将数据上链
 
-参照官方教程调用SDK即可。地址：https://tech.antfin.com/docs/2/146924#h4-u5B58u8BC1
+参照官方教程调用SDK即可。地址：<https://tech.antfin.com/docs/2/146924#h4-u5B58u8BC1>
 
 这里给出本项目使用的Client封装类
 
@@ -215,7 +215,7 @@ public class BlockchainClient {
 
 # 工程源码
 
-参见：https://github.com/hurongliang/fundation-use-alipay-openchain
+参见：<https://github.com/hurongliang/fundation-use-alipay-openchain>
 
 # 小结
 
