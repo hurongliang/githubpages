@@ -213,6 +213,10 @@ public class BlockchainClient {
 
 ```
 
+# 工程源码
+
+参见：https://github.com/hurongliang/fundation-use-alipay-openchain
+
 # 小结
 
 通过该项目，我们学到了区块链技术在实际应用中如何产生价值。
