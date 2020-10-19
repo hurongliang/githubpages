@@ -5,19 +5,19 @@ categories: 人工智能 问答机器人 USE Milvus
 excerpt: 如何将枯燥的Q&A列表改造成具备人工智能的问答机器人？
 ---
 
-背景
+# 背景
 
 场景一、大多数网站或者app都会有类似帮助中心的模块来帮助用户更好的使用网站或APP，目前大多数页面会以一问一答的形式展示。但是如果提供的QA或服务的内容较多，用户找起来会很麻烦，比如京东的帮助中心，提供的服务非常多，如果有一个简单的交互页面，用户输入口语化的问题就能正确定位到相关QA并直接给出答案，体验会更好。
 
 场景二、购物类应用的客服通常要提供购物相关答疑，并且大多数问题会重复出现，如果有一个智能问答机器人在人工繁忙的时候预先提供服务，能很好的提高答疑效率。避免客户因长时间等待失去耐心和购物热情。
 
-目标
+# 目标
 
 构建一个智能问答机器人，能根据用户的提问从问答库中准确找出相应的答案并呈现。
 
 这里我们不需要结构化语义，也不需要提供动态服务。
 
-技术方案
+# 技术方案
 
 这是一个文本相似度匹配的问题。
 
@@ -31,10 +31,10 @@ Google提供了现成的universal-sentence-encoder模型（USE）：[https://cha
 
 使用USE模型得到的是文本的向量表示，而要匹配提问和原问题的向量，则需要用到Milvus。Milvus是一个开源的分布式向量搜索引擎。我们把问答库中的原问题录入Milvus，在用户提示时，使用USE模型将提问转换成向量表示，并利用Milvus检索出相似度最高的原问题，可以找到对应的答案。
 
-工程实现源码
+# 工程实现
 
-见github：[https://github.com/hurongliang/ai-chatbot](https://github.com/hurongliang/ai-chatbot)
+源码：[https://github.com/hurongliang/ai-chatbot](https://github.com/hurongliang/ai-chatbot)
 
-Demo
+# Demo
 
 搭建了一个简单应用，有兴趣的同学体验下，地址：[https://chatbot.hurongliang.com/](https://chatbot.hurongliang.com/)
