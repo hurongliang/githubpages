@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 搭建智能问答机器人
-categories: 人工智能 Q&A USE Milvus
+categories: 人工智能 Q&A 智能问答 USE Milvus
 excerpt: 如何将枯燥的Q&A列表改造成具备人工智能的问答机器人？
 ---
 
@@ -37,4 +37,14 @@ Google提供了现成的universal-sentence-encoder模型（USE）：[https://tfh
 
 # Demo
 
-搭建了一个简单应用，有兴趣的同学体验下，地址：[https://chatbot.hurongliang.com/](https://chatbot.hurongliang.com/)
+搭建了一个简单应用，有兴趣的同学体验下。
+
+地址：[https://chatbot.hurongliang.com/](https://chatbot.hurongliang.com/)
+
+# 参考及引用 
+
+[Learning Semantic Textual Similarity from Conversations](https://arxiv.org/abs/1804.07754)
+
+[Advances in Semantic Textual Similarity](https://ai.googleblog.com/2018/05/advances-in-semantic-textual-similarity.html)
+
+
