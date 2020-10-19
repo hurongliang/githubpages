@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 搭建智能问答机器人
-categories: 人工智能 问答机器人 USE Milvus
+categories: 人工智能 Q&A USE Milvus
 excerpt: 如何将枯燥的Q&A列表改造成具备人工智能的问答机器人？
 ---
 
@@ -27,7 +27,7 @@ excerpt: 如何将枯燥的Q&A列表改造成具备人工智能的问答机器�
 
 论文 《Learning Semantic Textual Similarity from Conversations》 提供了一个语义相似度算法模型，她从对话数据中学习句子之间的语义相似度，通过无监督训练模型学习表征，并用多任务训练增强模型，并结合问答预测任务和自然语言推理任务提升性能。在给定的问答场景中，能有效区分语义相似的的问题。
 
-Google提供了现成的universal-sentence-encoder模型（USE）：[https://chatbot.hurongliang.com/](https://tfhub.dev/google/universal-sentence-encoder-large/3)
+Google提供了现成的universal-sentence-encoder模型（USE）：[https://tfhub.dev/google/universal-sentence-encoder-large/3](https://tfhub.dev/google/universal-sentence-encoder-large/3)
 
 使用USE模型得到的是文本的向量表示，而要匹配提问和原问题的向量，则需要用到Milvus。Milvus是一个开源的分布式向量搜索引擎。我们把问答库中的原问题录入Milvus，在用户提示时，使用USE模型将提问转换成向量表示，并利用Milvus检索出相似度最高的原问题，可以找到对应的答案。
 
